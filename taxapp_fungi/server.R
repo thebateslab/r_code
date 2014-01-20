@@ -7,8 +7,8 @@ shinyServer(function(input, output) {
  
   observe({
   get_data <- function(txt){
-    the_url <- "http://api.gbif.org/v0.9/species?name="
-    the_url <- paste(the_url, txt, sep="")
+    the_url <- "http://www.indexfungorum.org/ixfwebservice/fungus.asmx/NameSearchDs?SearchText="
+    the_url <- paste(the_url, txt, "&AnywhereInText=FALSE&MaxNumber=10", sep="")
     tax_file <- getURL(the_url)
     
    # err_rep <- grep(GENUS, tax_file)
