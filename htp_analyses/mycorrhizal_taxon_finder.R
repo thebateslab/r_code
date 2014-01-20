@@ -1,3 +1,7 @@
+## for ectomycorrhizal taxa see:
+## Tedersoo, May & Smith. 2010. Mycorrhiza 20: 217-263 
+## Rinaldi, Comandini & Kuyper. 2008. Fungal Diversity 33: 1-45
+
 rm(list = ls())
 blnk <- 0
 
