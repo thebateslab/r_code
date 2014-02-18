@@ -34,9 +34,9 @@ the_taxa <- as.vector(otu_table[,the_taxa])
 
 ### write the column headings to the output file ###
 ### likelihood interpretation follows: ###
-### Highly Probable = mycorhizal association firmly established experimentally and in the literature ###
-### Probable = mycorhizal association very likely but not as firmly established ###
-### Possible = taxon contains mycorrhizal and non-mycorrhizal species - must be determed on a species-to-species basis ###
+### Highly Probable = mycorrhizal association firmly established experimentally and in the literature ###
+### Probable = mycorrhizal association very likely but not firmly established ###
+### Possible = taxon contains mycorrhizal and non-mycorrhizal species - must be determined on a species-to-species basis ###
 ### Conflicting Reports = conflicting reports exist in the literature ###
 dt_out <- c("TAXONOMIC STRING", "TAXON", "MYCORRHIZAL STATUS", "LIKELIHOOD", "CITATION")
 write(dt_out, pth_out, ncolumns = 5, append=T, sep="\t")
