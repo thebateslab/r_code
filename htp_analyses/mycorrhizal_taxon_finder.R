@@ -2,6 +2,9 @@
 ## Tedersoo, May & Smith. 2010. Mycorrhiza 20: 217-263 
 ## Rinaldi, Comandini & Kuyper. 2008. Fungal Diversity 33: 1-45
 
+## See also Sara Branco et al. 2013 for a similar script written in python
+## http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0078295
+
 rm(list = ls())
 blnk <- 0
 
